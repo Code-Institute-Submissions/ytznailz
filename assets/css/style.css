@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*----------------------------------Heading*/
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    font-family: Lato;
+    color:#777777;
+}
+
+h2{
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:#555555;
+}
+
+#logo{
+    float: left; 
+    font-size: 280%;
+    margin-left: 30px;
+}
+ 
+#menu{
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
+#logo, #menu{
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #777777;
+}
+
+.active{
+     border-bottom: 1px solid #777777;
+}
+
+
+#homebckg-image{
+    height: 500px;
+    background:url("../images/backgroung/yellow-nails.jpeg") no-repeat center center;
+    background-size: cover;
+    animation-name: home-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#homebckg-outer{
+    height:500px;
+    width: 100%;
+    overflow:hidden;
+    position: relative;
+}
+#cover-text, #cover-text h3 {
+    color:rgb(255,223,0);
+    text-align: center;
+}
+
+#cover-text, #cover-text h5 {
+    color:rgb(233, 229, 229);
+    text-align: center;
+}
+
+@keyframes homebckg-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#cover-text {
+    font-size: 100%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    width: 300px;
+    height: 150px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 194, 107, 0.4);
+
+    top:150px;
+    left:100px;
+
+    position: absolute;
+}
+
+/*----------------------------------Block,Text*/
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub{
+    font-family: "Exo", sans-serif;
+    font-weight:300;
+    color:#fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
