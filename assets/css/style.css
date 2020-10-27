@@ -26,6 +26,11 @@ h2{
     color:#f8f8f8;
 }
 
+h6{
+    color:#f8f8f8;
+    margin:0;
+}
+
 #logo{
     float: left; 
     font-size: 280%;
@@ -118,6 +123,23 @@ h2{
     position: absolute;
 }
 
+.list-inline{
+    margin:0;
+}
+
+.list-inline-item:not(:last-child){
+    margin:0;
+    text-align: center;
+}
+
+.menucontainer{
+    font-size:0;
+}
+
+#nav li{
+    font-size: 14px;
+    padding:0;
+}
 
 /*----------------------------------Block,Text*/
 .uppercase {
@@ -139,11 +161,14 @@ h2{
 footer {
 background-color: #000;
 color: #fafafa;
-min-height: 100px;
+min-height: 80px;
 margin: 0;}
 
 .social-links {
-    padding-bottom: 10px;}
+    padding-bottom: 10px;
+    margin:0;
+    text-align: center;
+    }
 
 .social-links li a i {
           width: 32px;
@@ -164,9 +189,15 @@ margin: 0;}
 background: rgb(255,223,0);}
 
 #footer-details {
-    padding: 20px;} 
+    padding: 20px;
+    margin:0;
+    text-align: center;
+}
 
-.container-fluid{}
+.container-fluid{
+    margin:0;
+    text-align:center;
+}
 
 .row{}
 
@@ -175,7 +206,23 @@ background: rgb(255,223,0);}
 .signature{
     color: #8f8f8f;
     height: x-small;
+    text-align: left;
     
 }
 
+/*----------------------------------Gallery*/
+img{
+    margin:0;
+    padding:0;
+    height: 325px;
+    width: 325px;
+    display:inline-block;}
 
+#img-gallery{
+    margin:0;
+    padding:0x;
+    height: auto;
+    max-width: 100%;
+    column-count: 4;
+    column-gap: 0px;
+}
