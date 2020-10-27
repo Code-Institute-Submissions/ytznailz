@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*----------------------------------Heading*/
+
+header {
+background-color: #000;
+color: #8f8f8f;
+min-height: 100px;
+margin: 0;}
+
 *{
     margin:0;
     padding:0;
@@ -16,7 +23,7 @@ h2{
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:#555555;
+    color:#f8f8f8;
 }
 
 #logo{
@@ -26,6 +33,7 @@ h2{
 }
  
 #menu{
+    color: #8f8f8f;
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 2px;
@@ -47,6 +55,7 @@ h2{
 
 #menu a:hover {
     border-bottom: 1px solid #777777;
+    text-decoration-color: rgb(255,223,0);
 }
 
 .active{
@@ -108,6 +117,7 @@ h2{
     position: absolute;
 }
 
+
 /*----------------------------------Block,Text*/
 .uppercase {
     text-transform: uppercase;
@@ -122,3 +132,49 @@ h2{
 .inline-block {
     display: inline-block;
 }
+
+/*----------------------------------Footer*/
+
+footer {
+background-color: #000;
+color: #fafafa;
+min-height: 100px;
+margin: 0;}
+
+.social-links {
+    padding-bottom: 10px;}
+
+.social-links li a i {
+          width: 32px;
+          height: 32px;
+          padding: 12px 0;
+          border-radius: 50%;
+          font-size: 13px;
+          line-height: 7px;
+          text-align: center;
+          color: #fafafa;
+          background: #8f8f8f;
+          transition: all 0.35s ease-in-out;
+          -moz-transition: all 0.35s ease-in-out;
+          -webkit-transition: all 0.35s ease-in-out;
+          -o-transition: all 0.35s ease-in-out;}
+
+.social-links li a i:hover {
+background: rgb(255,223,0);}
+
+#footer-details {
+    padding: 20px;} 
+
+.container-fluid{}
+
+.row{}
+
+.col-sm-4{}
+
+.signature{
+    color: #8f8f8f;
+    height: x-small;
+    
+}
+
+
