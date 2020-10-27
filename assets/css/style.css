@@ -214,15 +214,17 @@ background: rgb(255,223,0);}
 img{
     margin:0;
     padding:0;
-    height: 325px;
-    width: 325px;
-    display:inline-block;}
+    border:0;
+    border-image: 10px;
+    border-color: white;
+    height: auto;
+    max-width: 100%;}
 
 #img-gallery{
     margin:0;
     padding:0x;
     height: auto;
     max-width: 100%;
-    column-count: 4;
     column-gap: 0px;
+    column-count: 3;
 }
