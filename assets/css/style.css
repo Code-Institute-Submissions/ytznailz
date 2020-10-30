@@ -226,7 +226,7 @@ background: rgb(255,223,0);}
 }
 
 #servicesbckg-outer{
-    height:700px;
+    height:550px;
     width: 100%;
     overflow:hidden;
     position: relative;
@@ -441,59 +441,79 @@ img{
     height: 600px;
     clear: both;
     float: both;
+    margin:0;
 }
 
 #servicesoptions div{
    text-align: center;
    display: inline-block;
+   margin:10px;
 }
 
-#servicesoptions h2{
+#servicesoptions h4{
    text-align: center;
    color:#8f8f8f;
    float:both;
+   text-transform: uppercase;
+   letter-spacing: 1px;
 }
 
 #servicesoptions p{
+    vertical-align: top;
    text-align: center;
    color:#777777;
+   text-transform: uppercase;
+   height:auto;
+   margin:10px;
+
 }
 
 #manicure{
     margin:0 auto;
     padding-top: 0px;
-    width: 25%;
+    width: 20%;
 }
 
 #french{
     margin:0 auto;
     padding-top: 0px;
-    width:25%;
+    width:20%;
 }
-
 
 #nailart{
     margin:0 auto;
     padding-top: 0px;
-    width:25%;
-}
-
-#french{
-    margin:0 auto;
-    padding-top: 0px;
-    width:25%;
+    width:20%;
 }
 
 #uvgel{
     margin:0 auto;
     padding-top: 0px;
-    width:25%;
+    width:20%;
 }
 
 #polish{
     margin:0 auto;
     padding-top: 0px;
-    width:25%;
+    width:20%;
+}
+
+#removegel{
+    margin:0 auto;
+    padding-top: 0px;
+    width:20%;
+}
+
+#repair{
+    margin:0 auto;
+    padding-top: 0px;
+    width:20%;
+}
+
+#removeacrylic{
+    margin:0 auto;
+    padding-top: 0px;
+    width:20%;
 }
 
 hr{
@@ -503,40 +523,22 @@ hr{
 }
 
 .servicesheading{
-    width: 50%;
+    width: 75%;
+    height: 100%;
     line-height: 20px;
     margin-bottom: 50px;
     clear: both;
 }
 
-.nailart-heading{
-    width:50%;
-    line-height: 20px;
-    margin-bottom: 50px;
-}
-
-.french-heading{
-    width:50%;
-    line-height: 20px;
-    margin-bottom: 50px;
-}
-
-.uvgel-heading{
-    width:50%;
-    line-height: 20px;
-    margin-bottom: 50px;
-}
-
-.polish-heading{
-    width:50%;
-    line-height: 20px;
-    margin-bottom: 50px;
-}
-
 #welcome{
-    margin: 20px 0;
+    margin:0;
     text-align: center;
     font-size: 280%;
+    color: rgb(255,223,0);;
+    letter-spacing: 1px;
+    height: auto;
+    width:100%;
+
 }
 
 #circle-container{
@@ -547,7 +549,7 @@ hr{
     border-color:#cccccc;
     border-width: 1px;
     border-radius: 50%;
-    margin:0 auto;
+    margin-bottom:0 0;
 }
  
 #manicure-cover-bg{
@@ -576,6 +578,24 @@ hr{
 
 #polish-cover-bg{
     background: url("../images/services/polish.jpg") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+}
+
+#removegel-cover-bg{
+    background: url("../images/services/removegel.jpg") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+}
+
+#repair-cover-bg{
+    background: url("../images/services/repairnail.jpg") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+}
+
+#removeacrylic-cover-bg{
+    background: url("../images/services/removeacrylic.jpg") no-repeat center center;
     height:100%;
     border-radius: 50%;
 }
