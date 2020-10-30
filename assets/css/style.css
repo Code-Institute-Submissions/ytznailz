@@ -68,8 +68,8 @@ h6{
      border-bottom: 1px solid #777777;
 }
 
-
 #homebckg-image{
+    opacity: 0.9;
     height: 500px;
     background:url("../images/backgroung/yellow-nails.jpeg") no-repeat center center;
     background-size: cover;
@@ -214,6 +214,7 @@ background: rgb(255,223,0);}
 /*----------------------------------Services*/
 
 #servicesbckg-image{
+    opacity: 0.9;
     height: 500px;
     background:url("../images/backgroung/guantepink.jpeg") no-repeat center center;
     background-size: cover;
@@ -225,7 +226,7 @@ background: rgb(255,223,0);}
 }
 
 #servicesbckg-outer{
-    height:500px;
+    height:700px;
     width: 100%;
     overflow:hidden;
     position: relative;
@@ -269,10 +270,17 @@ background: rgb(255,223,0);}
     position: absolute;
 }
 
+#whours{
+    margin:0;
+    padding:0;
+    color:#8f8f8f;
+}
+
 /*----------------------------------Contact*/
 #contactbckg-image{
+    opacity: 0.9;
     height: 500px;
-    background:url("../images/backgroung/corona.jpeg") no-repeat center center;
+    background: url("../images/backgroung/corona.jpeg") no-repeat center center;
     background-size: cover;
     animation-name:servicesbckg-zoom;
     animation-duration: 5s;
@@ -312,7 +320,7 @@ background: rgb(255,223,0);}
     text-transform: uppercase;
     letter-spacing: 1px;
 
-    width: 300px;
+    width: 500px;
     height: 150px;
 
     padding-top: 40px;
@@ -326,14 +334,11 @@ background: rgb(255,223,0);}
     position: absolute;
 }
 
-#whours{
-    color:#8f8f8f;
-}
-
 
 
 /*----------------------------------Gallery*/
 #gallerybckg-image{
+    opacity: 0.9;
     height: 500px;
     background:url("../images/backgroung/nailscolors.jpg") no-repeat center center;
     background-size:cover;
@@ -354,12 +359,12 @@ background: rgb(255,223,0);}
     position: relative;
 }
 #gallerycover-text, #gallerycover-text h3 {
-    color:#000;
+    color:rgb(255,223,0);;
     text-align: center;
 }
 
 #gallerycover-text, #gallerycover-text h5 {
-    color:#000;
+    color:rgb(233, 229, 229);
     text-align: center;
 }
 
@@ -429,4 +434,148 @@ img{
     left:100px;
 
     position: absolute;
+}
+/*----------------------------------lr*/
+
+#servicesoptions{
+    height: 600px;
+    clear: both;
+    float: both;
+}
+
+#servicesoptions div{
+   text-align: center;
+   display: inline-block;
+}
+
+#servicesoptions h2{
+   text-align: center;
+   color:#8f8f8f;
+   float:both;
+}
+
+#servicesoptions p{
+   text-align: center;
+   color:#777777;
+}
+
+#manicure{
+    margin:0 auto;
+    padding-top: 0px;
+    width: 25%;
+}
+
+#french{
+    margin:0 auto;
+    padding-top: 0px;
+    width:25%;
+}
+
+
+#nailart{
+    margin:0 auto;
+    padding-top: 0px;
+    width:25%;
+}
+
+#french{
+    margin:0 auto;
+    padding-top: 0px;
+    width:25%;
+}
+
+#uvgel{
+    margin:0 auto;
+    padding-top: 0px;
+    width:25%;
+}
+
+#polish{
+    margin:0 auto;
+    padding-top: 0px;
+    width:25%;
+}
+
+hr{
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.servicesheading{
+    width: 50%;
+    line-height: 20px;
+    margin-bottom: 50px;
+    clear: both;
+}
+
+.nailart-heading{
+    width:50%;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.french-heading{
+    width:50%;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.uvgel-heading{
+    width:50%;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.polish-heading{
+    width:50%;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+#welcome{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+}
+
+#circle-container{
+    width: 150px;
+    height: 150px;
+    padding:15px;
+    border-style: solid;
+    border-color:#cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin:0 auto;
+}
+ 
+#manicure-cover-bg{
+    background: url("../images/services/manicure.jpg") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+}
+
+#nailart-cover-bg{
+    background: url("../images/services/nailart.jpg") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+}
+
+#french-cover-bg{
+    background: url("../images/services/french.jpg") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+}
+
+#uvgel-cover-bg{
+    background: url("../images/services/uvgel.jpg") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+}
+
+#polish-cover-bg{
+    background: url("../images/services/polish.jpg") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
 }
