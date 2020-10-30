@@ -438,7 +438,7 @@ img{
 /*----------------------------------lr*/
 
 #servicesoptions{
-    height: 600px;
+    height: 650px;
     clear: both;
     float: both;
     margin:0;
@@ -459,8 +459,8 @@ img{
 }
 
 #servicesoptions p{
-    vertical-align: top;
    text-align: center;
+   vertical-align:top;
    color:#777777;
    text-transform: uppercase;
    height:auto;
@@ -542,8 +542,8 @@ hr{
 }
 
 #circle-container{
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     padding:15px;
     border-style: solid;
     border-color:#cccccc;
@@ -553,13 +553,13 @@ hr{
 }
  
 #manicure-cover-bg{
-    background: url("../images/services/manicure.jpg") no-repeat center center;
+    background: url("assets/images/services/manicure.jpg") no-repeat center center;
     height:100%;
     border-radius: 50%;
 }
 
 #nailart-cover-bg{
-    background: url("../images/services/nailart.jpg") no-repeat center center;
+    background: url("assets/images/services/nailart.jpg") no-repeat center center;
     height:100%;
     border-radius: 50%;
 }
