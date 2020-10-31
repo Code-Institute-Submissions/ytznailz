@@ -334,6 +334,11 @@ background: rgb(255,223,0);}
     position: absolute;
 }
 
+#contactus{
+    height: 100px;
+    float: both;
+    margin:0;
+}
 
 
 /*----------------------------------Gallery*/
@@ -542,8 +547,8 @@ hr{
 }
 
 #circle-container{
-    width: 175px;
-    height: 175px;
+    width: 200px;
+    height: 200px;
     padding:15px;
     border-style: solid;
     border-color:#cccccc;
@@ -598,4 +603,88 @@ hr{
     background: url("../images/services/removeacrylic.jpg") no-repeat center center;
     height:100%;
     border-radius: 50%;
+}
+
+/*----------------------------------Book an Appointment*/
+#book{
+    margin:0;
+}
+
+.box {
+    margin:0;
+    width: 100%;
+    border: solid 2px rgb(255,223,0);
+    background-color :rgb(255,223,0);
+    content:"";
+    z-index:-1;
+    -webkit-box-shadow: 0 0 20px rgb(255,223,0);
+    -moz-box-shadow: 0 0 20px rgb(255,223,0);
+    box-shadow: 0 5px 20px rgb(255,223,0);
+}
+
+.box-header {
+    font-size: 2em;
+    font-weight: bold;
+    color: #1E2749;
+    
+}
+
+#disabledSelect{
+    height: 30px;
+}
+/*
+.form-control {
+    height: 30px;
+}
+*/
+.form-group1 {
+    padding-bottom: 45px;
+    height: 5px;
+}
+
+
+
+#disabledSelect{
+    padding-bottom: 25px;
+}
+
+.input-group-addon,.fa> fa-calendar {
+    color: #FFE071;
+    background: #8f8f8f;
+    border: solid 1px #8f8f8f;
+}
+
+p, label, checkbox {
+    font-size: 1em;
+    font-weight: bold;
+    color: #8f8f8f;
+    
+}
+
+.header_p {
+    font-size: 1.1em;
+}
+
+.btn{
+    color: rgba(198, 156, 0, 1);
+    background: #8f8f8f;
+    border: solid 1px #8f8f8f;
+    ;
+}
+
+.help-block {
+    color: #8f8f8f;
+}
+.col-md-12{
+    margin:0;
+    float:both;
+    clear:both;
+}
+#book-outer{
+    float:both;
+    clear:both;
+    height:auto;
+    width: 33%;
+    overflow:hidden;
+    position: relative;
 }
