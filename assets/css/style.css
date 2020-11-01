@@ -536,7 +536,7 @@ hr{
 }
 
 #welcome{
-    margin:0;
+    margin-bottom:30px;
     text-align: center;
     font-size: 280%;
     color: rgb(255,223,0);;
@@ -606,6 +606,12 @@ hr{
 }
 
 /*----------------------------------Book an Appointment*/
+.continer-fluid .box{
+    width:100%;
+    align-content: center;
+    background-color: none;
+}
+
 #book{
     margin:0;
 }
@@ -614,19 +620,18 @@ hr{
     margin:0;
     width: 100%;
     border: solid 2px rgb(255,223,0);
-    background-color :rgb(255,223,0);
+    background-color:#f8f8f8;
     content:"";
     z-index:-1;
-    -webkit-box-shadow: 0 0 20px rgb(255,223,0);
-    -moz-box-shadow: 0 0 20px rgb(255,223,0);
-    box-shadow: 0 5px 20px rgb(255,223,0);
+    -webkit-box-shadow: 0 0 20px #f8f8f8;
+    -moz-box-shadow: 0 0 20px #f8f8f8;
+    box-shadow: 0 5px 20px #f8f8f8;
 }
 
-.box-header {
-    font-size: 2em;
+.box-header h2{
+    font-size: 1.5em;
     font-weight: bold;
-    color: #1E2749;
-    
+    color: #8f8f8f;
 }
 
 #disabledSelect{
@@ -642,34 +647,26 @@ hr{
     height: 5px;
 }
 
-
-
 #disabledSelect{
     padding-bottom: 25px;
 }
 
 .input-group-addon,.fa> fa-calendar {
-    color: #FFE071;
-    background: #8f8f8f;
-    border: solid 1px #8f8f8f;
+    color: rgb(255,223,0);
+    background: #000;
+    border: solid 1px rgb(255,223,0);
 }
 
-p, label, checkbox {
+label, checkbox {
     font-size: 1em;
     font-weight: bold;
     color: #8f8f8f;
-    
-}
-
-.header_p {
-    font-size: 1.1em;
 }
 
 .btn{
-    color: rgba(198, 156, 0, 1);
-    background: #8f8f8f;
-    border: solid 1px #8f8f8f;
-    ;
+    color: rgb(255,223,0);
+    background: #000;
+    border: solid 1px rgb(255,223,0);
 }
 
 .help-block {
@@ -677,14 +674,12 @@ p, label, checkbox {
 }
 .col-md-12{
     margin:0;
-    float:both;
-    clear:both;
 }
 #book-outer{
-    float:both;
-    clear:both;
     height:auto;
-    width: 33%;
+    width: 100%;
     overflow:hidden;
-    position: relative;
+    background-color: none;
+    margin:0px;
+    padding-top:0px;
 }
