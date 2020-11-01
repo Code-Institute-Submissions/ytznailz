@@ -188,7 +188,8 @@ margin-top:2px;}
           -o-transition: all 0.35s ease-in-out;}
 
 .social-links li a i:hover {
-background: rgb(255,223,0);}
+background: rgb(255,223,0);
+color:#8f8f8f}
 
 #footer-details {
     padding: 20px;
@@ -617,9 +618,11 @@ hr{
 }
 
 .box {
-    margin:0;
+    margin:0px;
+    padding:5px;
     width: 100%;
-    border: solid 2px rgb(255,223,0);
+    height: auto;
+    border: solid 2px #f8f8f8f;
     background-color:#f8f8f8;
     content:"";
     z-index:-1;
@@ -628,10 +631,22 @@ hr{
     box-shadow: 0 5px 20px #f8f8f8;
 }
 
-.box-header h2{
-    font-size: 1.5em;
+.box-header{
     font-weight: bold;
-    color: #8f8f8f;
+    color: rgb(255,223,0);
+    background-color: #000;
+    margin:0;
+    padding:0;
+    align: center;
+    height: 50px;
+}
+
+.box-header h3{
+    color: rgb(255,223,0);
+    vertical-align: center;
+    letter-spacing: 1px;
+    margin:0;
+    padding: 0;
 }
 
 #disabledSelect{
@@ -644,29 +659,49 @@ hr{
 */
 .form-group1 {
     padding-bottom: 45px;
-    height: 5px;
+    height: auto;
+    max-height:65px
 }
 
 #disabledSelect{
     padding-bottom: 25px;
 }
 
-.input-group-addon,.fa> fa-calendar {
-    color: rgb(255,223,0);
-    background: #000;
-    border: solid 1px rgb(255,223,0);
-}
-
-label, checkbox {
+label .checkbox {
     font-size: 1em;
     font-weight: bold;
     color: #8f8f8f;
 }
 
+label{
+    letter-spacing: 1px;
+    font-size: 110%;
+    font-weight: bold;
+}
+
 .btn{
-    color: rgb(255,223,0);
-    background: #000;
-    border: solid 1px rgb(255,223,0);
+    border: solid 1px #8f8f8f;
+    color: #fafafa;
+    background: #8f8f8f;
+}
+
+button:hover {
+background: rgb(255,223,0);
+border: solid 2px rgb(255,223,0);
+color:#8f8f8f
+}
+
+checkbox{
+    background-color:rgb(255,223,0);
+    color:#8f8f8f;
+    padding-right:10px;
+    margin: 5px;
+    display: inline-block;}
+
+input[type=checkbox]:checked + label:after {
+  opacity: 1;
+  color:#8f8f8f;
+  background-color: rgb(255,223,0);
 }
 
 .help-block {
@@ -677,9 +712,33 @@ label, checkbox {
 }
 #book-outer{
     height:auto;
-    width: 100%;
+    width: auto;
     overflow:hidden;
     background-color: none;
     margin:0px;
     padding-top:0px;
+}
+
+.form-group li a i {
+          width: 32px;
+          height: 32px;
+          padding: 12px 0;
+          border-radius: 50%;
+          font-size: 13px;
+          line-height: 7px;
+          text-align: center;
+          color: #fafafa;
+          background: #8f8f8f;
+          transition: all 0.35s ease-in-out;
+          -moz-transition: all 0.35s ease-in-out;
+          -webkit-transition: all 0.35s ease-in-out;
+          -o-transition: all 0.35s ease-in-out;}
+
+.form-group li a i:hover {
+background: rgb(255,223,0);
+color:#8f8f8f;}
+
+.col-6 hr{
+    color:rgb(255,223,0);
+    border: solid 2px rgb(255,223,0);
 }
