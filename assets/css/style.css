@@ -471,7 +471,6 @@ img{
    text-transform: uppercase;
    height:auto;
    margin:10px;
-
 }
 
 #manicure{
@@ -557,57 +556,18 @@ hr{
     border-radius: 50%;
     margin:0 auto;
 }
- 
-#manicure-cover-bg{
-    background: url("../images/gallery/g1.jpg") no-repeat center center;
-    height:100%;
-    border-radius: 50%;
-}
 
-#nailart-cover-bg{
-    background: url("assets/images/services/nailart.jpg") no-repeat center center;
+.rounded-circle{
     height:100%;
-    border-radius: 50%;
-}
+    max-height: 270px;
+    width: auto;
+    max-width: 270;
+    border-radius:50%;
 
-#french-cover-bg{
-    background: url("../images/services/french.jpg") no-repeat center center;
-    height:100%;
-    border-radius: 50%;
-}
-
-#uvgel-cover-bg{
-    background: url("../images/services/uvgel.jpg") no-repeat center center;
-    height:100%;
-    border-radius: 50%;
-}
-
-#polish-cover-bg{
-    background: url("../images/services/polish.jpg") no-repeat center center;
-    height:100%;
-    border-radius: 50%;
-}
-
-#removegel-cover-bg{
-    background: url("../images/services/removegel.jpg") no-repeat center center;
-    height:100%;
-    border-radius: 50%;
-}
-
-#repair-cover-bg{
-    background: url("../images/services/repairnail.jpg") no-repeat center center;
-    height:100%;
-    border-radius: 50%;
-}
-
-#removeacrylic-cover-bg{
-    background: url("../images/services/removeacrylic.jpg") no-repeat center center;
-    height:100%;
-    border-radius: 50%;
 }
 
 /*----------------------------------Book an Appointment*/
-.continer-fluid .box{
+.container-fluid .box{
     width:100%;
     align-content: center;
     background-color: none;
