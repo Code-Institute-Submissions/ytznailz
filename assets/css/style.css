@@ -401,16 +401,28 @@ color:#8f8f8f}
     position:absolute;
 }
 
-img {
+.thumbnail img{
+    margin:0px;
+    padding:0px;
+    border:0;
+    height:275px;
+    width:100%;
+    vertical-align: center;
+}
+
+
+#img-gallery img{
     margin:7px;
     padding:0px;
     border:0;
     height:300px;
-    width:300px;}
+    width:300px;
+    vertical-align: center;
+}
+
 
 #img-gallery{
     background-color:#fff;
-    clear:both;
     margin-top:2px;
     margin-bottom:2px;
     padding:0px;
@@ -548,13 +560,13 @@ hr{
     margin:0 auto;
 }
 
-.rounded-circle{
-    height:100%;
-    max-height: 270px;
-    width: auto;
-    max-width: 270px;
-    border-radius:50%;
-
+.circle-container img{
+    margin:0;
+    padding:0;
+    align-content: center;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
 }
 
 #servicesoptions .container-fluid{
@@ -704,3 +716,53 @@ checkbox{
 .checkbox input[type="checkbox"] + label::before
 {background-color: #fff;  border-color: #8f8f8f;
 border-radius: 50%;}
+
+
+/* Customer's Reviews/ */
+/* http://www.jquery2dotnet.com/ */
+#reviews {
+  padding-top: 70px;
+}
+.btn-grey{
+    background-color:#D8D8D8;
+	color:#FFF;
+}
+.rating-block{
+	background-color:#FAFAFA;
+	border:1px solid #EFEFEF;
+	padding:15px 15px 20px 15px;
+	border-radius:3px;
+}
+.bold{
+	font-weight:700;
+}
+.padding-bottom-7{
+	padding-bottom:7px;
+}
+
+.review-block{
+	background-color:#FAFAFA;
+	border:1px solid #EFEFEF;
+	padding:15px;
+	border-radius:3px;
+	margin-bottom:15px;
+}
+.review-block-name{
+	font-size:12px;
+	margin:10px 0;
+}
+.review-block-date{
+	font-size:12px;
+}
+.review-block-rate{
+	font-size:13px;
+	margin-bottom:15px;
+}
+.review-block-title{
+	font-size:15px;
+	font-weight:700;
+	margin-bottom:10px;
+}
+.review-block-description{
+	font-size:13px;
+}
