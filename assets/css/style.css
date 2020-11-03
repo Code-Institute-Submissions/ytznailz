@@ -720,10 +720,6 @@ border-radius: 50%;}
 
 /* Customer's Reviews/ */
 
-#reviews{
-    margin:0;
-}
-
 #reviewsbckg-image{
     opacity: 1;
     height: 500px;
@@ -744,12 +740,12 @@ border-radius: 50%;}
     overflow:hidden;
     position:relative;
 }
-#reviewscover-text, #gallerycover-text h3 {
-    color:rgb(255,223,0);;
+#reviewscover-text, #reviewscover-text h3 {
+    color:rgb(255,223,0);
     text-align: center;
 }
 
-#reviewscover-text, #gallerycover-text h5 {
+#reviewscover-text, #reviewscover-text h5 {
     color:rgb(233, 229, 229);
     text-align: center;
 }
@@ -783,19 +779,17 @@ border-radius: 50%;}
     position:absolute;
 }
 
-#carousel-item img{
-    margin:0pxpadding:0px;
-    width:500px;
-    height:300px;
+#reviews{
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-right: 0;
+    text-align: center;
 }
 
 #reviews .container-fluid{
-    width:100%;
-    align-content: center;
-    height:900px;
+   align-content:center;
 }
 
-
-/* Tstimonial slider full-width/ */
+/* Testimonial slider full-width/ */
 
 
