@@ -44,6 +44,7 @@
 </section>
 
 <section>
+    <h2 class="welcome">Heading</h2>
         <div class="uppercase">
             <p>kjdkgjskdgjk</p>
         </div>
@@ -54,7 +55,7 @@
   <div class="row">
     <div class="col"></div>
     <div class="col-6">
-        <h2 id="welcome">Book Online</h2> 
+        <h2 class="welcome">Book Online</h2> 
         <div class="uppercase">
             <div class="box">
                 <div class="box-header">
@@ -75,20 +76,20 @@
     
                 <!-- fullname Input -->    
                 <div class="form-group1">
-                    <label for="inputfullname"></label>
-                    <input type="fullname" class="form-control" id="inputFullname" placeholder="Your Name">
+                    <label for="fullname"></label>
+                    <input type="text" class="form-control" id="fullname" placeholder="Full Name">
                 </div>
         
                 <!-- email address Input -->
                 <div class="form-group1">
-                    <label for="inputemail"></label>
-                    <input type="email" class="form-control" id="inputemail" placeholder="Your Email">
+                    <label for="email"></label>
+                    <input type="email" class="form-control" id="email" placeholder="E-mail">
                 </div>
             
                 <!-- Phone Input --> 
                 <div class="form-group1">
-                    <label for="inputphone"></label>
-                    <input type="phone" class="form-control" id="inputphone" placeholder="Your Phone">
+                    <label for="phone"></label>
+                    <input type="number" class="form-control" id="phone" placeholder="Phone">
                 </div>
             </div>
             <div><hr></div>
@@ -96,17 +97,15 @@
         <!-- Appointment date Input --> 
             <div class="box">
                 <div class="form-group">
-                    <label for="datepicer">Check available date</label>
-                    <div class="input-group date" id="datetimepicker8">
-                        <input type="text" class="form-control">
-                        <span>
+                    <label for="datetimepicker8">Check available date</label>
+                    <ul>
                         <li class="list-inline-item">
+                            <input name="datetimepicker8" type="text" class="input-group, date, form-control" id="datetimepicker8">
                             <a target="_blank" href="#">
-                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                            <span class="sr-only">Calendar</span></a>
+                            <span><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                            </a>
                         </li>
-                        </span>
-                    </div>
+                        </ul>
                 </div>
             </div>
             <div><hr></div>
@@ -115,7 +114,7 @@
             <div class="box">
                 <div class="form-group">
                     <label for="Select">Desired Service:</label>
-                    <select id="Select" class="form-control">
+                    <select class="Select, form-control">
                     <option>Manicure</option>
                     <option>Nail Art Design</option>
                     <option>French Design</option>
@@ -127,7 +126,7 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>                    
+                    <textarea class="form-control" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>                    
                 </div>
 
                 <!-- Button Area-->
@@ -154,8 +153,7 @@
 
 <footer class="container-fluid">
 <div id="footer-details" class="row"></div>
-<div class="col-sm-12">
-<h6 class="uppercase general-sub"></h6>
+<div class="col-sm-12, uppercase general-sub">
 <ul class="list-inline social-links">
     <li class="list-inline-item">
     <a target="_blank" href="#">
