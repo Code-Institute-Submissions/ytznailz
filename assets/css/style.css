@@ -69,7 +69,7 @@ h6{
 }
 
 #homebckg-image{
-    opacity: 0.9;
+    opacity: 1;
     height: 500px;
     background:url("../images/backgroung/yellow-nails.jpeg") no-repeat center center;
     background-size: cover;
@@ -214,7 +214,7 @@ color:#8f8f8f}
 /*----------------------------------Services*/
 
 #servicesbckg-image{
-    opacity: 0.9;
+    opacity: 1;
     height: 500px;
     background:url("../images/backgroung/guantepink.jpeg") no-repeat center center;
     background-size: cover;
@@ -278,7 +278,7 @@ color:#8f8f8f}
 
 /*----------------------------------Contact*/
 #contactbckg-image{
-    opacity: 0.9;
+    opacity: 1;
     height: 500px;
     background: url("../images/backgroung/corona.jpeg") no-repeat center center;
     background-size: cover;
@@ -342,11 +342,11 @@ color:#8f8f8f}
 
 /*----------------------------------Gallery*/
 #gallerybckg-image{
-    opacity: 0.9;
+    opacity: 1;
     height: 500px;
     background:url("../images/backgroung/nailscolors.jpg") no-repeat center center;
     background-size:cover;
-    animation-name:servicesbckg-zoom;
+    animation-name:gallerybckg-zoom;
     animation-duration: 5s;
     animation-fill-mode:forwards;
     margin-left:10px;
@@ -720,6 +720,80 @@ border-radius: 50%;}
 
 /* Customer's Reviews/ */
 
+#reviews{
+    margin:0;
+}
+
+#reviewsbckg-image{
+    opacity: 1;
+    height: 500px;
+    background:url("../images/backgroung/lija.jpeg") no-repeat center center;
+    background-size:cover;
+    animation-name:reviewsbckg-zoom;
+    animation-duration: 5s;
+    animation-fill-mode:forwards;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+#reviewsbckg-outer{
+    height:400px;
+    width:100%;
+    overflow:hidden;
+    position:relative;
+}
+#reviewscover-text, #gallerycover-text h3 {
+    color:rgb(255,223,0);;
+    text-align: center;
+}
+
+#reviewscover-text, #gallerycover-text h5 {
+    color:rgb(233, 229, 229);
+    text-align: center;
+}
+
+@keyframes reviewsbckg-zoom {
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+
+#reviewscover-text {
+    font-size:100%;
+    font-family:Oswald;
+    text-transform:uppercase;
+    letter-spacing:1px;
+
+    width:300px;
+    height:150px;
+
+    padding-top:40px;
+    padding-left:10px;
+
+    background-color:transparent;
+
+    top:150px;
+    left:100px;
+
+    position:absolute;
+}
+
+#carousel-item img{
+    margin:0pxpadding:0px;
+    width:500px;
+    height:300px;
+}
+
+#reviews .container-fluid{
+    width:100%;
+    align-content: center;
+    height:900px;
+}
 
 
 /* Tstimonial slider full-width/ */
