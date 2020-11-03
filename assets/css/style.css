@@ -790,6 +790,59 @@ border-radius: 50%;}
    align-content:center;
 }
 
-/* Testimonial slider full-width/ */
+/* Testimonial slider full-width */
 
+/* Rating--------------------- */
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center
+}
 
+.rating>input {
+    display: none
+}
+
+.rating>label {
+    font-size: 3vw;
+    color: #FFD600;
+    cursor: pointer;
+}
+
+.rating>label::before {
+    content:"\2605";
+    position: absolute;
+    opacity: 0;
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+    opacity: 1;
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4;
+}
+
+.rating {
+    background: #222225;
+    color: white;
+    height:auto;
+}
+
+#ratingsection{
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:0;
+    margin-right: 0;
+    text-align: center;
+    vertical-align: center;}
+
+#ratingsection .container-fluid{
+    align-content:center;
+    vertical-align: center;
+}
