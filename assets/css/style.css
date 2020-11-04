@@ -280,9 +280,9 @@ color:#8f8f8f}
 #contactbckg-image{
     opacity: 1;
     height: 500px;
-    background: url("../images/backgroung/corona.jpeg") no-repeat center center;
+    background: url("assets/images/backgroung/corona.jpeg") no-repeat center center;
     background-size: cover;
-    animation-name:servicesbckg-zoom;
+    animation-name:contactbckg-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
     margin-top:2px;
@@ -335,10 +335,26 @@ color:#8f8f8f}
 }
 
 #contactus{
-    height:100px;
     margin:0;
+    height:250px;
+    width: 100%;
+    clear: both;
 }
 
+#contactus h4 {
+    color:#6b6b6b;
+    text-align: center;
+}
+
+#contactus h6{
+    color:#7c7c7c;
+    text-align: center;
+}
+
+#contactus p {
+    color:#afafaf;
+    text-align: center;
+}
 
 /*----------------------------------Gallery*/
 #gallerybckg-image{
@@ -450,20 +466,23 @@ color:#8f8f8f}
 /*----------------------------------lr*/
 
 #servicesoptions{
-    height: 650px;
+    height: 900px;
     clear: both;
     margin:0;
+    padding:0;
+    align-content: center;
+    vertical-align: center;
 }
 
 #servicesoptions div{
    text-align: center;
    display: inline-block;
-   margin:10px;
+   margin:5px;
 }
 
 #servicesoptions h4{
    text-align: center;
-   color:#8f8f8f;
+   color:#6b6b6b;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -541,7 +560,8 @@ hr{
 }
 
 .welcome{
-    margin-bottom:30px;
+    margin-bottom:20px;
+    margin-top:20px;
     text-align: center;
     font-size: 280%;
     color: rgb(255,223,0);
