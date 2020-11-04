@@ -280,7 +280,7 @@ color:#8f8f8f}
 #contactbckg-image{
     opacity: 1;
     height: 500px;
-    background: url("assets/images/backgroung/corona.jpeg") no-repeat center center;
+    background: url("../images/backgroung/corona.jpeg") no-repeat center center;
     background-size: cover;
     animation-name:contactbckg-zoom;
     animation-duration: 5s;
