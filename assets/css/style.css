@@ -70,8 +70,8 @@ h6{
 
 #homebckg-image{
     opacity: 1;
-    height: 525px;
-    background:url("../images/backgroung/yellow-nails.jpeg") no-repeat center center;
+    height: 100%;
+    background:url("../images/background/yellow-nails.jpeg") no-repeat center center;
     background-size: cover;
     animation-name:homebckg-zoom;
     animation-duration: 5s;
@@ -216,8 +216,8 @@ color:#8f8f8f}
 
 #servicesbckg-image{
     opacity: 1;
-    height: 525px;
-    background:url("../images/backgroung/guantepink.jpeg") no-repeat center center;
+    height: 100%;
+    background:url("../images/background/guantepink.jpeg") no-repeat center center;
     background-size: cover;
     animation-name:servicesbckg-zoom;
     animation-duration: 5s;
@@ -281,8 +281,8 @@ color:#8f8f8f}
 /*----------------------------------Contact*/
 #contactbckg-image{
     opacity: 1;
-    height: 525px;
-    background: url("../images/backgroung/corona.jpeg") no-repeat center center;
+    height: 100%;
+    background: url("../images/background/corona.jpg") no-repeat center center;
     background-size: cover;
     animation-name:contactbckg-zoom;
     animation-duration: 5s;
@@ -331,7 +331,7 @@ color:#8f8f8f}
     padding-left:50px;
     padding-right:0px;
 
-    background-image: linear-gradient(to right,rgb(5, 5, 5), transparent);
+    background-image: linear-gradient(to right,rgba(5, 5, 5, 0.473), transparent);
     top:0px;
     left:0px;
 
@@ -363,8 +363,8 @@ color:#8f8f8f}
 /*----------------------------------Gallery*/
 #gallerybckg-image{
     opacity: 1;
-    height: 525px;
-    background:url("../images/backgroung/orangenails.jpg") no-repeat center center;
+    height: 100%;
+    background:url("../images/background/orangenails.jpg") no-repeat center center;
     background-size:cover;
     animation-name:gallerybckg-zoom;
     animation-duration: 5s;
