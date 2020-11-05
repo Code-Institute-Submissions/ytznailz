@@ -70,7 +70,7 @@ h6{
 
 #homebckg-image{
     opacity: 1;
-    height: 500px;
+    height: 525px;
     background:url("../images/backgroung/yellow-nails.jpeg") no-repeat center center;
     background-size: cover;
     animation-name:homebckg-zoom;
@@ -81,7 +81,7 @@ h6{
 }
 
 #homebckg-outer{
-    height:500px;
+    height:525px;
     width: 100%;
     overflow:hidden;
     position: relative;
@@ -89,16 +89,17 @@ h6{
 #cover-text, #cover-text h3 {
     color:rgb(255,223,0);
     text-align: center;
+    letter-spacing: 1px;
 }
 
 #cover-text, #cover-text h5 {
-    color:rgb(233, 229, 229);
+    color:#f8f8f8;
     text-align: center;
 }
 
 @keyframes homebckg-zoom {
     from{
-        transform: scale(1);
+        transform: scale(1.05);
     }
     to{
         transform: scale(1.1);
@@ -111,18 +112,18 @@ h6{
     text-transform: uppercase;
     letter-spacing: 1px;
 
-    width: 300px;
-    height: 150px;
+     width: 430px;
+    height: 550px;
 
-    padding-top: 40px;
-    padding-left: 10px;
+    padding-top: 225px;
+    padding-left:50px;
+    padding-right:0px;
 
-    background-color: rgba(241, 194, 107, 0.4);
+    background-image: linear-gradient(to right,rgb(5, 5, 5), transparent);
+    top:0px;
+    left:0px;
 
-    top:150px;
-    left:100px;
-
-    position: absolute;
+    position:absolute;
 }
 
 .list-inline{
@@ -215,7 +216,7 @@ color:#8f8f8f}
 
 #servicesbckg-image{
     opacity: 1;
-    height: 500px;
+    height: 525px;
     background:url("../images/backgroung/guantepink.jpeg") no-repeat center center;
     background-size: cover;
     animation-name:servicesbckg-zoom;
@@ -234,6 +235,7 @@ color:#8f8f8f}
 #servicescover-text, #servicescover-text h3 {
     color:rgb(255,223,0);
     text-align: center;
+    letter-spacing: 1px;
 }
 
 #servicescover-text, #servicescover-text h5 {
@@ -243,7 +245,7 @@ color:#8f8f8f}
 
 @keyframes servicesbckg-zoom {
     from{
-        transform: scale(1);
+        transform: scale(1.05);
     }
     to{
         transform: scale(1.1);
@@ -256,18 +258,18 @@ color:#8f8f8f}
     text-transform: uppercase;
     letter-spacing: 1px;
 
-    width: 300px;
-    height: 150px;
+    width: 430px;
+    height: 550px;
 
-    padding-top: 40px;
-    padding-left: 10px;
+    padding-top: 225px;
+    padding-left:50px;
+    padding-right:0px;
 
-    background-color:transparent;
+    background-image: linear-gradient(to right,rgb(5, 5, 5), transparent);
+    top:0px;
+    left:0px;
 
-    top:150px;
-    left:100px;
-
-    position: absolute;
+    position:absolute;
 }
 
 #whours{
@@ -279,7 +281,7 @@ color:#8f8f8f}
 /*----------------------------------Contact*/
 #contactbckg-image{
     opacity: 1;
-    height: 500px;
+    height: 525px;
     background: url("../images/backgroung/corona.jpeg") no-repeat center center;
     background-size: cover;
     animation-name:contactbckg-zoom;
@@ -290,14 +292,16 @@ color:#8f8f8f}
 }
 
 #contactbckg-outer{
-    height:500px;
+    height:550px;
     width: 100%;
     overflow:hidden;
     position: relative;
 }
+
 #contactcover-text, #contactcover-text h3 {
-    color:rgb(255,223,0);
+    color:rgb(255, 221, 0);
     text-align: center;
+    letter-spacing: 1px;
 }
 
 #contactcover-text, #contactcover-text h5 {
@@ -320,16 +324,16 @@ color:#8f8f8f}
     text-transform: uppercase;
     letter-spacing: 1px;
 
-    width: 500px;
-    height: 150px;
+    width: 430px;
+    height: 550px;
 
-    padding-top: 40px;
-    padding-left: 10px;
+    padding-top: 225px;
+    padding-left:50px;
+    padding-right:0px;
 
-    background-color:transparent;
-
-    top:150px;
-    left:100px;
+    background-image: linear-gradient(to right,rgb(5, 5, 5), transparent);
+    top:0px;
+    left:0px;
 
     position:absolute;
 }
@@ -359,8 +363,8 @@ color:#8f8f8f}
 /*----------------------------------Gallery*/
 #gallerybckg-image{
     opacity: 1;
-    height: 500px;
-    background:url("../images/backgroung/nailscolors.jpg") no-repeat center center;
+    height: 525px;
+    background:url("../images/backgroung/orangenails.jpg") no-repeat center center;
     background-size:cover;
     animation-name:gallerybckg-zoom;
     animation-duration: 5s;
@@ -373,27 +377,28 @@ color:#8f8f8f}
 }
 
 #gallerybckg-outer{
-    height:400px;
+    height:550px;
     width:100%;
     overflow:hidden;
     position:relative;
 }
-#gallerycover-text, #gallerycover-text h3 {
-    color:rgb(255,223,0);;
+#gallerycover-text h3 {
+    color:rgb(255,223,0);
+    letter-spacing: 1px;
     text-align: center;
 }
 
-#gallerycover-text, #gallerycover-text h5 {
+#gallerycover-text h5 {
     color:rgb(233, 229, 229);
     text-align: center;
 }
 
 @keyframes gallerybckg-zoom {
     from{
-        transform: scale(1);
+        transform: scale(1.1);
     }
     to{
-        transform: scale(1.1);
+        transform: scale(1.15);
     }
 }
 
@@ -403,16 +408,16 @@ color:#8f8f8f}
     text-transform:uppercase;
     letter-spacing:1px;
 
-    width:300px;
-    height:150px;
+    width: 475px;
+    height: 550px;
 
-    padding-top:40px;
-    padding-left:10px;
+    padding-top: 225px;
+    padding-left:25px;
+    padding-right:0px;
 
-    background-color:transparent;
-
-    top:150px;
-    left:100px;
+    background-image: linear-gradient(to right,#000, transparent);
+    top:0px;
+    left:0px;
 
     position:absolute;
 }
@@ -446,22 +451,19 @@ color:#8f8f8f}
     column-count:4;
 }
 
-#gallerycover-text {
-    font-size: 100%;
-    font-family: Oswald, sans-serif;
+#gallery{
+    margin-top:50px;
+    margin-bottom:20px;
+    margin-right: 0;
+    text-align: center;
+}
+
+#gallery p{
+    padding-top: 5px;
+    padding-bottom: 10px;
     text-transform: uppercase;
-    letter-spacing: 1px;
-
-    width: 300px;
-    height: 150px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    top:150px;
-    left:100px;
-
-    position: absolute;
+    color:#8f8f8f;
+    font-size: smaller;
 }
 /*----------------------------------lr*/
 
@@ -560,10 +562,11 @@ hr{
 }
 
 .welcome{
+    text-transform: uppercase;
     margin-bottom:20px;
     margin-top:20px;
     text-align: center;
-    font-size: 280%;
+    font-size: 250%;
     color: rgb(255,223,0);
     letter-spacing: 1px;
     width:100%;
@@ -742,7 +745,7 @@ border-radius: 50%;}
 
 #reviewsbckg-image{
     opacity: 1;
-    height: 500px;
+    height: 525px;
     background:url("../images/backgroung/lija.jpeg") no-repeat center center;
     background-size:cover;
     animation-name:reviewsbckg-zoom;
@@ -755,7 +758,7 @@ border-radius: 50%;}
 }
 
 #reviewsbckg-outer{
-    height:400px;
+    height:550px;
     width:100%;
     overflow:hidden;
     position:relative;
@@ -763,6 +766,7 @@ border-radius: 50%;}
 #reviewscover-text, #reviewscover-text h3 {
     color:rgb(255,223,0);
     text-align: center;
+    letter-spacing: 1px;
 }
 
 #reviewscover-text, #reviewscover-text h5 {
@@ -785,16 +789,16 @@ border-radius: 50%;}
     text-transform:uppercase;
     letter-spacing:1px;
 
-    width:300px;
-    height:150px;
+    width: 430px;
+    height: 550px;
 
-    padding-top:40px;
-    padding-left:10px;
+    padding-top: 225px;
+    padding-left:50px;
+    padding-right:0px;
 
-    background-color:transparent;
-
-    top:150px;
-    left:100px;
+    background-image: linear-gradient(to right,rgb(5, 5, 5), transparent);
+    top:0px;
+    left:0px;
 
     position:absolute;
 }
