@@ -360,6 +360,10 @@ color:#8f8f8f}
     text-align: center;
 }
 
+.fa-calendar{
+    display: inline-block;
+}
+
 /*----------------------------------Gallery*/
 #gallerybckg-image{
     opacity: 1;
@@ -746,7 +750,7 @@ border-radius: 50%;}
 #reviewsbckg-image{
     opacity: 1;
     height: 525px;
-    background:url("../images/backgroung/lija.jpeg") no-repeat center center;
+    background:url("../images/background/lija.jpg") no-repeat center center;
     background-size:cover;
     animation-name:reviewsbckg-zoom;
     animation-duration: 5s;
@@ -812,6 +816,14 @@ border-radius: 50%;}
 
 #reviews .container-fluid{
    align-content:center;
+}
+
+#reviews p{
+    color:#f8f8f8;
+}
+
+#reviews h4{
+    color: rgb(255,223,0);
 }
 
 /* Testimonial slider full-width */
