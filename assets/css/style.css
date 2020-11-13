@@ -409,6 +409,7 @@ hr{
   height: 175px;
   border-radius: 50%;
   vertical-align: middle;
+  justify-content: center;
   border: 2px solid rgb(255,223,0);
   padding: 12.5px;
   margin:0 auto;
@@ -418,14 +419,17 @@ hr{
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto;
-  grid-gap: 75px;
+  grid-gap: 50px;
   background-color: #fff;
-  padding: 15px;
+  padding: 10px;
 }
 
 .grid-container > div {
+  width: 25%;
+  height: auto;
   text-align: center;
-  padding: 25px 30px;
+  vertical-align: middle;
+  padding: 15px 30px;
   background-color: #fff;
 }
 
@@ -456,6 +460,65 @@ hr{
    text-transform: uppercase;
    font-size: 110%;
 }
+
+@media screen and (max-width: 943px) { 
+.image_container img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  vertical-align: middle;
+  justify-content: center;
+  border: 2px solid rgb(255,223,0);
+  padding: 10px;
+  margin:0 auto;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  grid-gap: 40px;
+  background-color: #fff;
+  padding: 10px;
+}
+.grid-container > div {
+  width: 33%;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 10px;
+  background-color: #fff;
+}
+}
+
+  @media screen and (max-width: 750px) {
+.image_container img{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  vertical-align: middle;
+  justify-content: center;
+  border: 2px solid rgb(255,223,0);
+  padding: 7.5px;
+  margin:0 auto;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 40px;
+  background-color: #fff;
+  padding: 7.5px;
+}
+.grid-container > div {
+  width: 50%;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 10px;
+  background-color: #fff;
+}
+  }
+
 
 /*----------------------------------Contact*/
 #contactbckg-image{
@@ -655,6 +718,7 @@ hr{
   @media screen and (max-width: 800px) {
 #gallery .column{
   width: 50%;
+  }
   }
 
 /*----------------------------------Book an Appointment*/
