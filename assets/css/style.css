@@ -400,13 +400,13 @@ hr{
 .image_container{
   vertical-align: middle;
   justify-content: center;
-  padding: 10px;
+  padding: 0px;
   background-color: #fff;;
 }
 
 .image_container img{
-  width: 175px;
-  height: 175px;
+  width: 190px;
+  height: 190px;
   border-radius: 50%;
   vertical-align: middle;
   justify-content: center;
@@ -422,6 +422,8 @@ hr{
   grid-gap: 50px;
   background-color: #fff;
   padding: 10px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .grid-container > div {
@@ -463,8 +465,8 @@ hr{
 
 @media screen and (max-width: 943px) { 
 .image_container img{
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
   vertical-align: middle;
   justify-content: center;
@@ -479,6 +481,8 @@ hr{
   grid-gap: 40px;
   background-color: #fff;
   padding: 10px;
+  text-align: center;
+  vertical-align: middle;
 }
 .grid-container > div {
   width: 33%;
@@ -492,8 +496,8 @@ hr{
 
   @media screen and (max-width: 750px) {
 .image_container img{
-  width: 125px;
-  height: 125px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   vertical-align: middle;
   justify-content: center;
@@ -508,6 +512,8 @@ hr{
   grid-gap: 40px;
   background-color: #fff;
   padding: 7.5px;
+  text-align: center;
+  vertical-align: middle;
 }
 .grid-container > div {
   width: 50%;
@@ -713,12 +719,28 @@ hr{
 #gallery .column{
   width: 33%;
 }
+.thumbnail img{
+    margin:0px;
+    padding:1.5%;
+    border:0;
+    height:210px;
+    width:100%;
+    vertical-align: center;
+}
 }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 750px) {
 #gallery .column{
   width: 50%;
   }
+  .thumbnail img{
+    margin:0px;
+    padding:1.5%;
+    border:0;
+    height:210px;
+    width:100%;
+    vertical-align: center;
+}
   }
 
 /*----------------------------------Book an Appointment*/
