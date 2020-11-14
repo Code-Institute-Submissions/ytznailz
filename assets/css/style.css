@@ -614,6 +614,51 @@ hr{
     display: inline-block;
 }
 
+#book-outer{
+    width: 60%;
+    height: auto;
+}
+
+address {
+    text-align: center;
+    align-content: center;
+    }
+
+#address{
+    margin: 25px;
+}
+#address i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+    color: #777777;
+}
+
+.box i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+    color: #777777;
+}
+
+/*---------------------Google Map*/
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+/*---------------------Google Map Ending*/
+
+
 /*----------------------------------Gallery*/
 #gallerybckg-image{
     opacity: 1;

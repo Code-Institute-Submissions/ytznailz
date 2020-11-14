@@ -64,14 +64,43 @@
         </div>
 </section>
 
-<section>
-    <h2 class="welcome">Heading</h2>
-        <div class="uppercase">
-            <p>kjdkgjskdgjk</p>
+<section id="address">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <address>
+                <strong><i class="fa fa-map-pin"></i></strong><br>
+                1234 Example Street<br>
+                Antartica, Example 0987<br>
+                <abbr title="Phone"><i class="fa fa-phone"></i></abbr><br> (123) 456-7890
+                </address>
+
+                <address>
+                <a href="mailto:#"><i class="fa fa-envelope-open"></i><br>exam.ple@example.com</a>
+                </address>
+            </div>
+            <div class="col-sm-3"></div>
         </div>
+    </div>
 </section>
 
------------------------------------------------
+<!--Google map-->
+<section id="map" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+        <div id="map-container-google-1" class="z-depth-1-half map-container">
+        <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+            style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+</section>
+
+<!--Google Maps-->
+
 <section id="book-outer" class="container-fluid">
   <div class="row">
     <div class="col-sm-3"></div>
@@ -119,19 +148,20 @@
             <div class="box">
                 <div class="row">
                 <div class="col-12">
-                <div class="form-group">
-                    <label for="datetimepicker8">Check available date</label>
-                    <div>
-                    <ul>
-                        <li class="list-inline-item">
-                            <input name="datetimepicker8" type="text" class="input-group, date, form-control" id="datetimepicker8">
-                            <a target="_blank" href="#">
-                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                            </a>
-                        </li>
+                    <div class="form-group">
+                        <label for="datetimepicker8">Check available date</label>
+                        <ul>
+                            <li class="list-inline-item">
+                                <div>
+                                    <input name="datetimepicker8" type="text" class="input-group, date, form-control" id="datetimepicker8">
+                                    <div>
+                                    <a target="_blank" href="#"><i class="fa fa-calendar" aria-hidden="true"></i>
+                                    </a>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
-                </div>
                 </div>
                 </div>
             </div>
@@ -176,7 +206,6 @@
     <div class="col-sm-3"></div>
 </div>
 </section>
------------------------------------------------
 
 <footer class="container-fluid">
 <div id="footer-details" class="row"></div>
