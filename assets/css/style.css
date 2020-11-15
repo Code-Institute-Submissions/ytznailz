@@ -46,11 +46,13 @@ h2{
     text-transform: uppercase;
     letter-spacing: 4px;
     color:#f8f8f8;
+    font-size: 160%
 }
 
 h6{
     color:#f8f8f8;
     margin:0;
+    font-size: 120%
 }
 
 #logo{
@@ -461,7 +463,7 @@ hr{
    vertical-align: center;
    color:#8f8f8f;
    text-transform: uppercase;
-   font-size: 110%;
+   font-size: 120%;
 }
 
 @media screen and (max-width: 943px) { 
@@ -599,11 +601,13 @@ hr{
 #contact h4 {
     color:#6b6b6b;
     text-align: center;
+    font-size: 140%;
 }
 
 #contact h6{
     color:#7c7c7c;
     text-align: center;
+    font-size:110%;
 }
 
 #contact p {
@@ -618,6 +622,11 @@ hr{
 #book-outer{
     width: 60%;
     height: auto;
+}
+
+#book-outer h3{
+    font-size: 150%;
+    padding:1%;
 }
 
 address {
