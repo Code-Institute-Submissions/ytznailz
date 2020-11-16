@@ -193,8 +193,7 @@ h6{
 footer {
 background-color: #000;
 color: #fafafa;
-min-height: 80px;
-margin-top:2px;}
+min-height: 80px;}
 
 .social-links {
     padding-bottom: 10px;
@@ -223,7 +222,7 @@ color:#8f8f8f}
 
 #footer-details {
     padding: 20px;
-    margin:0;
+    margin-top:20px;
     text-align: center;
 }
 
@@ -392,7 +391,7 @@ hr{
 .welcome{
     text-transform: uppercase;
     margin-bottom:20px;
-    margin-top:20px;
+    margin-top:50px;
     text-align: center;
     font-size: 250%;
     color: rgb(255,223,0);
@@ -543,7 +542,7 @@ hr{
 }
 
 #contactbckg-outer{
-    height:610px;
+    height:700px;
     width: 100%;
     overflow:hidden;
     position: relative;
@@ -620,7 +619,7 @@ hr{
 }
 
 #book-outer{
-    width: 60%;
+    width: 100%;
     height: auto;
 }
 
