@@ -6,7 +6,9 @@ header {
 background-color: #000;
 color: #8f8f8f;
 min-height: 100px;
-margin-bottom:2px;}
+margin-bottom:2px;
+margin-left:0;
+margin-right: 0;}
 
 /*-----------------------------------------Navbar--*/
 .bg-dark {
@@ -189,11 +191,12 @@ h6{
 }
 
 /*----------------------------------Footer*/
-
 footer {
 background-color: #000;
 color: #fafafa;
-min-height: 80px;}
+min-height: 80px;
+margin-left:0;
+margin-right: 0;}
 
 .social-links {
     padding-bottom: 10px;
@@ -221,7 +224,7 @@ background: rgb(255,223,0);
 color:#8f8f8f}
 
 #footer-details {
-    padding: 10px;
+    padding-top: 25px;
     margin-top:2px;
     text-align: center;
 }
@@ -231,18 +234,18 @@ color:#8f8f8f}
     text-align:center;
 }
 
-.row{}
-
-.col-sm-4{}
-
 .signature{
     color: #8f8f8f;
     text-align: left;
     font-size: 75%;
-    
 }
-/*----------------------------------Services*/
 
+.signature p{
+margin:0;
+padding:0;
+}
+
+/*----------------------------------Services*/
 #servicesbckg-image{
     opacity: 1;
     height: 100%;
@@ -261,6 +264,7 @@ color:#8f8f8f}
     overflow:hidden;
     position: relative;
 }
+
 #servicescover-text, #servicescover-text h3 {
     color:rgb(255,223,0);
     text-align: center;
@@ -327,36 +331,11 @@ color:#8f8f8f}
    font-size: 140%;
 }
 
-#manicure{
-}
-
-#french{
-}
-
-#nailart{
-}
-
-#uvgel{
-}
-
-#polish{
-}
-
-#removegel{
-}
-
-#repair{
-}
-
-#removeacrylic{
-}
-
 hr{
     border-top: 1px solid #777777;
     width: 100%;
     margin: 5px 0;
 }
-
 
 .servicesheading{
     width: 100%;
@@ -486,6 +465,7 @@ hr{
   text-align: center;
   vertical-align: middle;
 }
+
 .grid-container > div {
   width: 33%;
   height: auto;
@@ -841,11 +821,7 @@ position:absolute;
 #disabledSelect{
     height: 30px;
 }
-/*
-.form-control {
-    height: 30px;
-}
-*/
+
 .form-group1 {
     padding-bottom: 45px;
     height: auto;
@@ -935,7 +911,6 @@ border-radius: 50%;}
 
 
 /* Customer's Reviews/ */
-
 #reviewsbckg-image{
     opacity: 1;
     height: 600px;
