@@ -142,7 +142,7 @@ h6{
     letter-spacing: 1px;
     vertical-align: center;
 
-    width: 50%;
+    width: 40%;
     height: 100%;
 
     padding-top: 20%;
@@ -292,7 +292,7 @@ padding:0;
     letter-spacing: 1px;
     vertical-align: center;
 
-    width: 50%;
+    width: 40%;
     height: 100%;
 
     padding-top: 20%;
@@ -555,7 +555,7 @@ hr{
     letter-spacing: 1px;
     align-content: center;
 
-    width: 50%;
+    width: 40%;
     height: 100%;
 
     padding-top: 25%;
@@ -652,7 +652,7 @@ position:absolute;
 #gallerybckg-image{
     opacity: 1;
     height: 100%;
-    background:url("../images/background/orangenails.jpg") no-repeat center center;
+    background:url("../images/background/orangenails.jpg") no-repeat right center;
     background-size:cover;
     animation-name:gallerybckg-zoom;
     animation-duration: 5s;
@@ -700,7 +700,7 @@ position:absolute;
     width: 50%;
     height: 100%;
 
-    padding-top: 20%;
+    padding-top: 27%;
     padding-left:7%;
     padding-right:2%;
     padding-bottom:5%;
@@ -958,7 +958,7 @@ border-radius: 50%;}
     letter-spacing: 1px;
     align-content: center;
 
-    width: 50%;
+    width: 40%;
     height: 100%;
 
     padding-top: 20%;
