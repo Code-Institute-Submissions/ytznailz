@@ -110,7 +110,10 @@ Ytz.Nails works, and external websites:
 
 This is the main marketing website for Ytz.Nailz. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for customers.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center">
+    <img src="assets/readmeimg/homecell.jpg">
+    <img src="assets/readmeimg/homeipadvert.jpg">
+    <img src="assets/readmeimg/homelaptop.jpg"></h2>
 
 ## User Experience (UX)
 
