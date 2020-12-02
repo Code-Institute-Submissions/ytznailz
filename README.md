@@ -3,6 +3,7 @@
 ## Name
 Ytz. Nailz is a site for promote nails’ services and styles.
 ## Description
+The site contains a small portion of content that has a clear and illustrated informational purpose.
 The purposes of this site are
 1.	Create Online Presence
 2.	Promote our services
@@ -52,11 +53,12 @@ Hamburguer Icon for Navbar with responsive design.
 
  
 ## Technologies Used
-1. **HTML**. Hypertext Markup Language
-2. **CSS**. Cascading Style Sheets
+1. **HTML5**. Hypertext Markup Language. 
+2. **CSS3**. Cascading Style Sheets
 3. **JQuery**.  JQuery for DOM manipulation.
-4. **Bootstrap**. Framework to help design websites. It includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels, etc. It also gives you support for JavaScript plugins. Bootstrap's responsive CSS adjusts to phones, tablets, and desktops.
-5. **FontAwesome**. Designers love the use of icons as fonts because of the flexibility of styling available with high-quality iconography on every device.
+4. **Bootstrap**. Framework to help design websites. It includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels, etc. It also gives you support for JavaScript plugins. Bootstrap's responsive CSS adjusts to phones, tablets, and desktops. https://getbootstrap.com/
+5. **FontAwesome**. Designers love the use of icons as fonts because of the flexibility of styling available with high-quality iconography on every device. https://fontawesome.com/ 
+6. **Google Fonts**. https://fonts.google.com/
 
 ## Testing
 1. **Header**. NAV Menu allows to access to each individual page successfully.
@@ -72,16 +74,27 @@ Hamburguer Icon for Navbar with responsive design.
 
 5. **Responsive Design** for all pages.
 
+6. Spell and orthographic
+
 ## Deployment
 The page is deployed by Github pages. Master branch.
+
+## Credits
+-  N/A
+​
+### Content
+- All text content is original.
 
 ## Media
 Images are from:
 Ytz.Nails works, and external websites:
 
-- [freestocks](https://freestocks.org/),
+- [freestocks](https://freestocks.org/)
 - [pixabay](https://pixabay.com/)
 - [unsplash](https://unsplash.com/)
 - [pexels](https://pexels.com/)
  
+### Acknowledgements
+
+- I received inspiration for this project from my learning on Code Institute.
 
