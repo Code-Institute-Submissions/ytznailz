@@ -5,10 +5,21 @@
 header {
 background-color: #000;
 color: #8f8f8f;
-min-height: 100px;
+height: 100%;
+width: 100%;
 margin-bottom:2px;
-margin-left:0;
-margin-right: 0;}
+margin-left:0px;
+margin-right: 0px;
+padding:0px;
+}
+
+header #logo{
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:#f8f8f8;
+    font-size: 170%
+}
 
 /*-----------------------------------------Navbar--*/
 .bg-dark {
@@ -41,6 +52,8 @@ button:hover {
 body{
     font-family: Lato;
     color:#777777;
+    margin:0;
+    padding:0;
 }
 
 h2{
