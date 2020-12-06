@@ -89,13 +89,13 @@ The purposes of this site are
                 h.	Remove Acrylic
             And Hours of Operation with our working hours.
         
-        -   Gallery Page Wireframe - [View](https://cynthiapinedoh79.github.io/ytz.nailz/gallery.html)           
+    -   Gallery Page Wireframe - [View](https://cynthiapinedoh79.github.io/ytz.nailz/gallery.html)           
             Shows our work with a pictures gallery with a brief description of each one.
 
-        -   Contact Us Page Wireframe - [View](https://cynthiapinedoh79.github.io/ytz.nailz/contact.html)           
+    -   Contact Us Page Wireframe - [View](https://cynthiapinedoh79.github.io/ytz.nailz/contact.html)           
             This page contains the information of our place: location address, phone number, email, map, and a simple form for contact us.
 
-        -   Rate Us Page Wireframe - [View](https://cynthiapinedoh79.github.io/ytz.nailz/reviews.html)           
+    -   Rate Us Page Wireframe - [View](https://cynthiapinedoh79.github.io/ytz.nailz/reviews.html)           
             This page has the purpose to promote our services with the customer’s reviews and mainly improve them.
 
 
