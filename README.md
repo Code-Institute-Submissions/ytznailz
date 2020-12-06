@@ -1,21 +1,3 @@
-
-## Testing
-1. **Header**. NAV Menu allows to access to each individual page successfully.
-2. **Footer**. Social Media allows to new pages with successful link.
-3. The **W3C Markup Validation Service** for each HTML page: 
-- index.html
-- services.html
-- gallery.html
-- contact.html
-- reviews.html
-
-4. The **W3C CSS Validation Service** for style.css
-
-5. **Responsive Design** for all pages.
-
-6. Spell and orthographic
-
-
 <h1 align="center">Ytz.Nailz Project Website</h1>
 
 ## Project for Milestone 1- User Centric Web Design.
@@ -158,23 +140,29 @@ The purposes of this site are
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+**The W3C Markup Validator** and **W3C CSS Validator** Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+
+
+**Header**. NAV Menu allows to access to each individual page successfully.
+
+**Footer**. Social Media allows to new pages with successful link.
+
+**Responsive Design** for all pages.
+
 
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organization or company.
-
         1. Upon entering the site, users access to a clean and easily readable navigation bar to go to the page of their choice.
         2. The main pages are made with a background image.
         3. The user call to action throught buttons.
 
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content of my interest.
-
         1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar.
 
     3. As a First Time Visitor, I want to look for testimonials to understand if they are trusted. 
@@ -182,15 +170,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     
     4. I also want to locate their social media links to see their posts, their followings and determine how trusted and known they are.
         1. The user can find at the bottom of any page the social media links in the footer.
--   
-#### Returning Visitor Goals
+
+-   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to find more information about the services that they provide and working hours.
-
         1. These are shown in the Services page.
 
     2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-
         1. The navigation bar clearly highlights the "Contact Us" Page.
         2. User can find our information like address, phone number and email to be able to contac us for any question.
         3. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
@@ -205,7 +191,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to check to see if there are any newly added promotions.
-
         1. User can find promotions on Services page.
 
     2. As a Frecuent User, I want to schedule an apointment.
@@ -221,9 +206,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
+-   On some mobile devices the Logo Image pushes the size of screen out more than any of the other content on the page.
     -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   On some mobile devices the signature pushes the size of screen out more than any of the other content on the page.
+    -   A white gap can be seen to the bottom of the footer as result.
+-   Some misspelled words were corrected.
+-   Some background images were not visible on mobile devices.
+-   Some headings were too large on mobile devices because they weren't included in media querry or were not in percentages.
 
 ## Deployment
 
