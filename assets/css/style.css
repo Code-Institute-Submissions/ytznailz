@@ -346,11 +346,11 @@ padding:0;
    font-family: Oswald;
    text-align: center;
    vertical-align: center;
-   background-color: rgb(255,236,121);
+   background-color: rgb(255,223,0);
    color: #555;
    text-transform: uppercase;
    letter-spacing: 1px;
-   font-size: 130%;
+   font-size: 110%;
    padding: 5px;
    width:100%;
    height: auto;
@@ -360,7 +360,6 @@ padding:0;
    width: 100%;
    height: auto;
    vertical-align:top;
-   text-justify: center;
    color:#777777;
    text-transform: uppercase;
    margin:0;
@@ -377,6 +376,39 @@ padding:0;
     color: rgb(255,223,0);
     letter-spacing: 1px;
     width:100%;
+}
+
+#manicure{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#nailart{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#french{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#removeacrylic{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#polish{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#removegel{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#repair{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#uvgel{
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .image_container{
@@ -478,6 +510,38 @@ padding:0;
 }
 
   @media screen and (max-width: 700px) {
+#manicure{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#nailart{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#french{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#removeacrylic{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#polish{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#removegel{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#repair{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#uvgel{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 .image_container img{
   width: 125px;
   height: 125px;
@@ -651,11 +715,7 @@ position:absolute;
 #map iframe{
 width:600px;
 height:450px;
-frameborder:0;
-style:border:0;
-allowfullscreen:"";
-aria-hidden:"false";
-tabindex:0;
+border:0;
 }
 /*---------------------Google Map Ending*/
 
